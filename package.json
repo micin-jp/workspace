@@ -13,6 +13,8 @@
     "libs/*"
   ],
   "scripts": {
+    "dev:medical": "npm run dev --workspace='medical'",
+    "dev:patient": "npm run dev --workspace='patient'",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
