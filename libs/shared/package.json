@@ -1,11 +1,12 @@
 {
-  "name": "core",
+  "name": "shared",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "typescript": "^4.4.3"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
