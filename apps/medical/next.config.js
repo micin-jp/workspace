@@ -5,9 +5,10 @@ module.exports = withTM({
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.resolve.alias = {
       ...config.resolve.alias,
+      'react/jsx-runtime': require.resolve('react/jsx-runtime'),
       "react/jsx-dev-runtime": "react/jsx-dev-runtime.js",
-      "react/jsx-runtime": "react/jsx-runtime.js",
-    }
+    };
+
 
     return config;
   }
