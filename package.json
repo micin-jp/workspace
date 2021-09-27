@@ -9,7 +9,8 @@
   },
   "license": "ISC",
   "workspaces": [
-    "apps/*",
+    "apps/medical",
+    "apps/patient",
     "libs/*"
   ],
   "scripts": {
