@@ -1,4 +1,4 @@
-const withTM = require("next-transpile-modules")(["core"]);
+const withTM = require("next-transpile-modules")(["../../libs/core"]);
 
 module.exports = withTM({
   reactStrictMode: true,
