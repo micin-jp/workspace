@@ -9,8 +9,8 @@
       "~pages/*": [
         "./pages/*"
       ],
-      "~libs/*": [
-        "../../libs/*"
+      "~core/*": [
+        "../../libs/core*"
       ]
     }
   }
